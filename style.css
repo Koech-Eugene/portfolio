@@ -119,7 +119,8 @@ h1{
     transform: translateY(10px);
 }
 .contact{
-    display: flex;
+    display: inline-flex;
+    
 }
 .contactLeft{
     flex-basis: 35%;
