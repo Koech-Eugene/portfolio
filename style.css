@@ -40,7 +40,7 @@ nav{
     padding-right: 8%;
     
 }
-#sidemenu{
+nav ul li{
     list-style-type: none;
     display: inline-flex;
     padding: 10px 20px;
@@ -202,7 +202,7 @@ nav .fas{
         font-size: 30px;
     }
     nav .fas{
-        display: inline-block;
+        display: block;
         font-size: 25px;  
     }
     nav ul{
@@ -214,16 +214,16 @@ nav .fas{
         height: 100vh;
         padding-top: 50px;
     }
-}
-nav ul li{
-    display: block;
-    margin: 25px;
-}
-nav ul .fas{
-    position: absolute;
-    top: 25px;
-    left: 25px;
-    cursor: pointer;
-
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .fas{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    
+    }
 }
 
