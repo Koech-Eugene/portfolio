@@ -5,6 +5,7 @@
 }
 html{
     background-color: rgb(48, 53, 48);
+    scroll-behavior: smooth;
 }
 .container{
     padding: 10px 10%;
@@ -17,7 +18,6 @@ h2{
 #header{
     height: 100vh;
     width: 100%;
-    background-image: url();
     background-size: cover;
     background-color: rgb(48, 53, 48);
     background-position: center;
@@ -40,9 +40,9 @@ nav{
     padding-right: 8%;
     
 }
-nav ul li{
+#sidemenu{
     list-style-type: none;
-    display: inline-block;
+    display: inline-flex;
     padding: 10px 20px;
     text-transform: none;
     font-size: 20px;
@@ -189,7 +189,10 @@ nav .fas{
 }
 /* style for small screens */
 @media only screen and (max-width:600px){
-    #header{}
+    #header{ 
+        background-size: cover;
+        background-position: center;
+    }
     .headerText{
         margin-top: 10%;
         font-size: 16px;
@@ -198,7 +201,7 @@ nav .fas{
         font-size: 30px;
     }
     nav .fas{
-        display: block;
+        display: inline-block;
         font-size: 25px;  
     }
     nav ul{
